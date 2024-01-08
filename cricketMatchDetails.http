@@ -1,11 +1,11 @@
 ### API 1
-GET http://localhost:8080/players/
+GET http://localhost:3000/players/
 
 ### API 2
-GET http://localhost:8080/players/5/
+GET http://localhost:3000/players/5/
 
 ### API 3
-PUT http://localhost:8080/players/7/
+PUT http://localhost:3000/players/7/
 Content-Type: application/json
 
 {
@@ -13,13 +13,13 @@ Content-Type: application/json
 }
 
 ### API 4
-GET http://localhost:8080/matches/7/
+GET http://localhost:3000/matches/7/
 
 ### API 5
-GET http://localhost:8080/players/4/matches
+GET http://localhost:3000/players/4/matches
 
 ### API 6
-GET http://localhost:8080/matches/2/players
+GET http://localhost:3000/matches/2/players
 
 ### API 7
-GET http://localhost:8080/players/1/playerScores
+GET http://localhost:3000/players/1/playerScores
